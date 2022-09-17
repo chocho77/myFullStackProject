@@ -4,7 +4,10 @@ import { Inject,ScheduleComponent,Day, Week, WorkWeek, Month, Agenda } from '@sy
 const Schedule = () => {
   return (
     <div>
-      <Inject services={[Day, Week, WorkWeek, Month, Agenda]} />
+        <ScheduleComponent>
+           <Inject services={[Day, Week, WorkWeek, Month, Agenda]} />
+        </ScheduleComponent>
+      
     </div>
   )
 }
