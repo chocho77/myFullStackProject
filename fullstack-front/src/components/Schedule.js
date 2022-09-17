@@ -4,7 +4,7 @@ import { Inject,ScheduleComponent,Day, Week, WorkWeek, Month, Agenda } from '@sy
 const Schedule = () => {
   return (
     <div>
-        <ScheduleComponent currentView='Month'>
+        <ScheduleComponent currentView='Month' selectedDate={new Date(2019, 0, 11)}>
            <Inject services={[Day, Week, WorkWeek, Month, Agenda]} />
         </ScheduleComponent>
       
