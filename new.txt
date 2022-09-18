@@ -3,3 +3,6 @@ React Registration form tutorial web site:
 https://www.section.io/engineering-education/registration-form-react.js-firebase/
 
 Firebase url:// https://firebase.google.com/
+
+Hourra!! Votre formulaire d'inscription est rempli mais vous devez stocker les informations enregistrées 
+par l'utilisateur, ce qui sera fait en utilisant Firebase.
