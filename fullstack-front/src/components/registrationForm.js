@@ -28,6 +28,10 @@ function RegistrationForm() {
 
     }
 
+    const handleSubmit  = () => {
+        console.log(firstName,lastName,email,password,confirmPassword);
+    }
+
     return(
       <div className="form">
           <div className="form-body">
@@ -54,7 +58,7 @@ function RegistrationForm() {
               </div>
           </div>
           <div class="footer">
-              <button type="submit" class="btn">Register</button>
+          <button onClick={()=>handleSubmit()} type="submit" class="btn">Register</button>
           </div>
       </div>      
     )       
