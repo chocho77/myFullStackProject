@@ -1,10 +1,10 @@
 import './App.css';
-import Schedule from './components/Schedule.tsx';
+//import Schedule from './components/Schedule.tsx';
 
 function App() {
   return (
     <div className="App">
-    <Schedule />
+    <p>Test </p>
     </div>
   );
 }
