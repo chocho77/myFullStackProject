@@ -1,6 +1,13 @@
 import React, {useState} from 'react';
 import './style.css'
 function RegistrationForm() {
+    
+    const [firstName, setFirstName] = useState(null);
+    const [lastName, setLastName] = useState(null);
+    const [email, setEmail] = useState(null);
+    const [password,setPassword] = useState(null);
+    const [confirmPassword,setConfirmPassword] = useState(null);
+
     return(
       <div className="form">
           <div className="form-body">
