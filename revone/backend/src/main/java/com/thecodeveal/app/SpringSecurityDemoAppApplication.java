@@ -38,8 +38,8 @@ public class SpringSecurityDemoAppApplication {
 		User user=new User();
 		
 		user.setUserName("chavdar77");
-		user.setFirstName("Pardeep");
-		user.setLastName("K");
+		user.setFirstName("Chavdar");
+		user.setLastName("Momchilov");
 		
 		user.setPassword(passwordEncoder.encode("chavdar@123"));
 		user.setEnabled(true);
