@@ -36,9 +36,6 @@ export const Dashboard=(props)=>{
             <MainWrapper>
                 <h4>Hello {data && `${data.firstName} ${data.lastName}`}</h4>
                 <br></br>
-                {data && data.roles && data.roles.filter(value => value.roleCode==='ADMIN').length>0 && <Button type="variant">Add User</Button> }
-                <br></br>
-
                 <Button style={{marginTop:'5px'}} onClick={() =>logOut()}>Logout</Button>
             </MainWrapper>
         </Container>
